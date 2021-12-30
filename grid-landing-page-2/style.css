@@ -178,9 +178,9 @@ legend {
     grid-area: "div2";
 }
 
-.user-input>input {
-    /* justify-self: center; */
-}
+/* .user-input>input {
+    justify-self: center;
+} */
 
 /*
 =======================
