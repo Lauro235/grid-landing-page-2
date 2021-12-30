@@ -1,0 +1,189 @@
+/*
+=======================
+Resources
+=======================
+*/
+
+/* Images */
+
+/* 
+Photo directory - https://unsplash.com/photos/-G3rw6Y02D0
+Image address - https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+*/
+
+/* Font Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+@font-face {
+    font-family: 'elegantbilly';
+    src: url('elegant-1/BeautifulPeoplePersonalUse-dE0g.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/*
+=======================
+Variables
+=======================
+*/
+
+:root {
+    --elegant: normal normal normal 2.6rem/4rem 'elegantbilly';
+}
+
+/*
+=======================
+Set up
+=======================
+*/
+
+/*
+A tweak on the Eric Meyer reset block which you can find here https://meyerweb.com/eric/tools/css/reset/
+*/
+
+html,	body,	div,	span,	object,	iframe,
+h1,	    h2,	    h3,	    h4,	    h5,	    h6,
+p,	blockquote,	pre,	abbr,	address,
+cite,	code,	del,	dfn,	em,	img,
+ins,	kbd,	q,	samp,	small,	strong,
+sub,	sup,	var,	b,	i,	dl,
+dt,	dd,	ol,	ul,	li,	fieldset,
+form,	label,	legend,	table,	caption,
+tbody,	tfoot,	thead,	tr,	th,	td,
+article,	aside,	canvas,	details,
+figcaption,	figure,	footer,	header,	hgroup,
+menu,	nav,	section,	summary,
+time,	mark,	audio,	video,	a {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        color: black;
+        text-decoration: none;
+}
+
+fieldset, legend, label, input {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+html {
+        box-sizing: border-box;
+        height: 100%;
+}
+
+*,*::before, *::after {
+        box-sizing: inherit;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+/*
+===================
+Helper Classes
+===================
+*/
+
+/*
+=======================
+Typography
+=======================
+*/
+
+h2 {
+    font: var(--elegant);
+}
+
+/*
+=======================
+Layout
+=======================
+*/
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0.75rem;
+}
+
+.hero-text {
+    margin-top: 1.3rem;
+    grid-column: 2 / span 5;
+    text-align: center;
+    opacity: 70%;
+}
+
+.form-container {
+    height: 60%;
+    grid-column: 8 / span 4;
+    display: flex;
+}
+
+.sign-in {
+    display: grid;
+    height: 100%;
+    background-color: #d6D9A3;
+    border-radius: .5rem;
+    padding: 1rem;
+
+}
+/* fieldset>legend+.user-input+.user-input */
+
+
+
+fieldset { 
+    display: grid;
+    grid-template-areas:    "sign-in"
+                            "div1"
+                            "div2";
+    gap: 0.3rem;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-content: center; */
+    align-self: center;
+    justify-self: center;
+}
+
+legend {
+    font-family: 'elegantbilly';
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    grid-area: "sign-in";
+}
+/* .user-input>label+p+input (3 rows) */
+.user-input {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
+    /* place-content: center; */
+}
+
+.div1 {
+    grid-area: "div1";
+}
+
+.div2 {
+    grid-area: "div2";
+}
+
+.user-input>input {
+    /* justify-self: center; */
+}
+
+/*
+=======================
+Media Queries
+=======================
+*/
