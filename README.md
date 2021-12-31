@@ -2,13 +2,9 @@
 
 ## Grid Landing Page #2
 
-### A rollercoaster
+### One of those days
 
-Today was a tough one. There is something about being under pressure to be productive. Today I ended up almost deleting all my github repositories from my pc and then almost committing those deletions to the web app.
-
-### Making a friend
-
-In the process of undertaking this mini project. I met a really fantastic and incredibly knowledgable man called Terry. You can find him on Twitter at @AgentZeroNine. He was kind enough to teach me a few things and recommended a couple of articles.
+Today was a tough one. There is something about being under pressure to be productive. Today I ended up almost deleting all my github repositories from my pc and then almost committing those deletions to the web app. In the process of undertaking this mini project. I met a really fantastic and incredibly knowledgable man called Terry. You can find him on Twitter at @AgentZeroNine. He was kind enough to teach me a few things and recommended a couple of articles.
 
 ### Resources
 
