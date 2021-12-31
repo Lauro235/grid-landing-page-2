@@ -22,8 +22,7 @@ In the process of undertaking this mini project. I met a really fantastic and in
 
 
 ### Skill set demonstrated
-
-Anyway I say all this, because in a way it didn't feel like I learnt a lot today. I did however try to utilise various skills that are relatively new to me and so aren't fully ingrained.
+I tried to utilise various skills that are relatively new to me and so aren't fully ingrained.
 
 - I used CSS to create a 12 by 12 grid layout
 - I used a downloaded font
